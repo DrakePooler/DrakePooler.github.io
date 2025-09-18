@@ -1,0 +1,71 @@
+h1 {
+    text-align: top;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+
+a {
+    color: lightskyblue;
+}
+
+body {
+    background-color: blue;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 115px 115px 300px;
+    grid-template-rows: 50px 50px 80px 80px 80px;
+    gap: 5px 5px;
+}
+
+dinosaur {
+    grid-area: 1/3/6/4;
+    align-content: center;
+}
+
+name {
+    background-color: lightskyblue;
+    grid-area: 1/1/2/3;
+    align-content: center;
+}
+
+classification {
+    background-color: lightskyblue;
+    grid-area: 2/1/3/3;
+    align-content: center;
+}
+
+cost {
+    background-color: lightskyblue;
+    grid-area: 3/1/4/2;
+    align-content: stretch;
+}
+
+feeding {
+    background-color: lightskyblue;
+    grid-area: 3/2/4/3;
+    align-content: stretch;
+}
+
+lifespan {
+    background-color: lightskyblue;
+    grid-area: 4/1/5/2;
+    align-content: stretch;
+}
+
+space {
+    background-color: lightskyblue;
+    grid-area: 4/2/5/3;
+    align-content: stretch;
+}
+
+popularity {
+    background-color: lightskyblue;
+    grid-area: 5/1/6/2;
+    align-content: stretch;
+}
+
+unlock {
+    background-color: lightskyblue;
+    grid-area: 5/2/6/3;
+    align-content: stretch;
+}
