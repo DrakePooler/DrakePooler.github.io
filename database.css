@@ -17,8 +17,8 @@ h1 {
 figure {
     display: flex;
     flex-direction: column;
-    width: 125px;
-    height: 150px;
+    width: 145px;
+    height: 165px;
     background-color: blue;
     padding: 5px;
     margin: 10px;
