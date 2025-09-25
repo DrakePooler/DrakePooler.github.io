@@ -17,8 +17,10 @@ h1 {
 figure {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 145px;
-    height: 165px;
+    height: 150px;
     background-color: blue;
     padding: 5px;
     margin: 10px;
