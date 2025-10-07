@@ -4,6 +4,13 @@ h1 {
     font-weight: normal;
 }
 
+body {
+    background-image: url('https://i.redd.it/2wu1jdz3yh411.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 sub {
     vertical-align: bottom;
 }
