@@ -21,11 +21,12 @@ sub {
 menu {
     display: flexbox;
     justify-content: center;
-    align-content: center;
-    gap: 5px;
+    align-content: space-around;
+    gap: 10px;
 }
 
 item {
     display: flex;
     flex-direction: column;
+    flex-basis: 150px;
 }
