@@ -24,11 +24,11 @@ menu {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-top: 200px;
 }
 
 item {
     display: flex;
     flex-direction: column;
-    flex-basis: content;
+    width:fit-content;
+    border-radius: 20px;
 }
