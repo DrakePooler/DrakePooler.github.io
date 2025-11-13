@@ -17,3 +17,15 @@ sub {
     left: 0;
     color: white;
 }
+
+menu {
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+}
+
+item {
+    display: flex;
+    flex-direction: column;
+}
