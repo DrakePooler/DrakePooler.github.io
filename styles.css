@@ -22,11 +22,11 @@ menu {
     display: flexbox;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    padding: 20px;
     margin: 20px;
 }
 
 item {
     display: flex;
-    flex-direction: column;
+    flex-basis: content;
 }
