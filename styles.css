@@ -20,13 +20,15 @@ sub {
 
 menu {
     display: flexbox;
+    height: 500px;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin: 20px;
+    margin-top: 200px;
 }
 
 item {
     display: flex;
+    flex-direction: column;
     flex-basis: content;
 }
