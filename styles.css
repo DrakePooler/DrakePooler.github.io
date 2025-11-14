@@ -31,5 +31,7 @@ item {
     display: flex;
     flex-direction: column;
     width: fit-content;
+    justify-self: center;
+    align-self: center;
     border-radius: 20px;
 }
