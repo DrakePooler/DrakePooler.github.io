@@ -23,6 +23,7 @@ menu {
     height: 500px;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
 }
 
 item {
@@ -31,7 +32,7 @@ item {
     width: fit-content;
     justify-self: center;
     align-self: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 button {
